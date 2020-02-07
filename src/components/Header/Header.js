@@ -3,11 +3,12 @@ import styles from './Header.module.css'
 import Navbar from "./Navbar/Navbar";
 
 
+
 function Header() {
   return (
       <div className={styles.header}>
           <div className={styles.container}>
-             <Navbar/>
+            <Navbar/>
           </div>
 
       </div>
