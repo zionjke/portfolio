@@ -1,34 +1,4 @@
-.projects {
-  min-height: 100vh;
-  background-color: #a584a3;
-}
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-
-}
-
-.myprojects {
-
-
-  display: flex;
-  justify-content: center;
-
-}
-
-.myprojects span {
-  background-color: gray;
-  font-weight: bold;
-  margin-top: 60px;
-}
-
-.myprojects_items{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 80px;
-  border: 1px solid;
-}
 
 .myprojects_item {
   display: flex;

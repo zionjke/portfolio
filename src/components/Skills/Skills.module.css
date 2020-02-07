@@ -32,32 +32,3 @@
   justify-content: space-between;
 
 }
-
-.myskill_item {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #d9fff8;
-  border: 1px solid;
-  width: 30%;
-  min-height: 400px;
-}
-
-.myskill_item_image{
-  width: 100px;
-  height: 100px;
-  background-color: gray;
-
-}
-
-.myskill_item span {
-  font-weight: bold;
-}
-
-.myskill_item_description{
-  text-align: center;
-  border: 1px solid blue;
-  min-height: 150px;
-  width: 100%;
-}
