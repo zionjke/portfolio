@@ -1,4 +1,18 @@
 .header {
   height: 100px;
-  background-color: aquamarine;
+  background-color: #41f8ff;
+  display: flex;
+  justify-content: center;
+
+
 }
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /*border: 1px solid;*/
+  width: 80%;
+
+}
+
