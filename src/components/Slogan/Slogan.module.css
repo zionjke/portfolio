@@ -1,4 +1,31 @@
 .slogan {
   min-height: 250px;
-  background-color: blue;
+  background-color: #fcf3f3;
+}
+.container {
+  width: 80%;
+  border: 1px solid;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.slogan_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.slogan_block span {
+  background-color: grey;
+  font-size: 30px;
+}
+
+.slogan_block button {
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #292d3e;
+  border: 0;
+  font-weight: bold;
+  font-size: 20px;
+
 }
