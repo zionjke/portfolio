@@ -1,4 +1,22 @@
 .main {
   min-height: 100vh;
   background-color: pink;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+
+  border: 1px solid;
+  width: 80%;
+
+
+}
+
+.greeting {
+
+}
+
+.photo {
+
 }
