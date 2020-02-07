@@ -1,4 +1,26 @@
 .skills {
   min-height: 100vh;
-  background-color: lawngreen;
+  background-color: #34fcaf;
+
+
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.myskills{
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.myskills span {
+  background-color: gray;
+  font-weight: bold;
+  margin-top: 50px;
+
 }
