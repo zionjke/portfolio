@@ -6,7 +6,9 @@
 }
 
 .container {
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   border: 1px solid;
   width: 80%;
 
@@ -14,9 +16,12 @@
 }
 
 .greeting {
-
+  display: flex;
+  flex-direction: column;
 }
 
 .photo {
-
+  height: 400px;
+  width: 300px;
+  background-color: #d9fff8;
 }
