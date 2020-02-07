@@ -1,4 +1,23 @@
 .contacts {
   min-height: 100vh;
-  background-color: gold;
+  background-color: #a2a86b;
+}
+
+.container {
+  width: 80%;
+  border: 1px solid;
+  margin: 0 auto;
+
+}
+
+.contacts_block {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts_block_form {
+
 }
