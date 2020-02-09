@@ -18,6 +18,32 @@
   align-items: center;
 }
 
+.contacts_block span {
+  background-color: gray;
+  font-weight: bold;
+  font-size: 17px;
+}
+
 .contacts_block_form {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 25%;
+}
+.contacts_block_form input,
+.contacts_block_form textarea {
+  background-color: gray;
+  margin-top: 5px;
+}
+
+.contacts_block button {
+  background-color: gray;
+  border:0 ;
+  padding: 10px;
+  font-weight: bold;
+  margin-top:50px;
+  font-size: 15px;
 
 }

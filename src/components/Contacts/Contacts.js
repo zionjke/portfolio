@@ -8,13 +8,13 @@ function Contacts() {
             <div className={styles.container}>
                 <div className={styles.contacts_block}>
                     <span>Контакты</span>
-                    <div className={styles.contacts_block_form}>
-                        <form>
+
+                        <form className={styles.contacts_block_form}>
                             <input type="text"/>
                             <input type="text"/>
                             <textarea ></textarea>
                         </form>
-                    </div>
+
                     <button>
                         Отправить
                     </button>
