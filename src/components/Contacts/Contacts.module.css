@@ -8,9 +8,11 @@
   border: 1px solid;
   margin: 0 auto;
 
+
 }
 
 .contacts_block {
+
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -31,11 +33,17 @@
   justify-content: space-between;
   margin-top: 50px;
   width: 25%;
+
 }
 .contacts_block_form input,
 .contacts_block_form textarea {
   background-color: gray;
   margin-top: 5px;
+
+}
+
+.contacts_block_form textarea {
+  min-height: 100px;
 }
 
 .contacts_block button {
