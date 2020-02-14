@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/zionjke.github.io/portfolio/static/css/main.189f7132.chunk.css",
+    "main.js": "/zionjke.github.io/portfolio/static/js/main.01d61ba5.chunk.js",
+    "main.js.map": "/zionjke.github.io/portfolio/static/js/main.01d61ba5.chunk.js.map",
+    "runtime-main.js": "/zionjke.github.io/portfolio/static/js/runtime-main.de150825.js",
+    "runtime-main.js.map": "/zionjke.github.io/portfolio/static/js/runtime-main.de150825.js.map",
+    "static/js/2.5518c3fe.chunk.js": "/zionjke.github.io/portfolio/static/js/2.5518c3fe.chunk.js",
+    "static/js/2.5518c3fe.chunk.js.map": "/zionjke.github.io/portfolio/static/js/2.5518c3fe.chunk.js.map",
+    "index.html": "/zionjke.github.io/portfolio/index.html",
+    "precache-manifest.13e1bd3ed95192279ae7afac0023e5ee.js": "/zionjke.github.io/portfolio/precache-manifest.13e1bd3ed95192279ae7afac0023e5ee.js",
+    "service-worker.js": "/zionjke.github.io/portfolio/service-worker.js",
+    "static/css/main.189f7132.chunk.css.map": "/zionjke.github.io/portfolio/static/css/main.189f7132.chunk.css.map",
+    "static/js/2.5518c3fe.chunk.js.LICENSE.txt": "/zionjke.github.io/portfolio/static/js/2.5518c3fe.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de150825.js",
+    "static/js/2.5518c3fe.chunk.js",
+    "static/css/main.189f7132.chunk.css",
+    "static/js/main.01d61ba5.chunk.js"
+  ]
+}
