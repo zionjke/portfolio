@@ -7,7 +7,7 @@ function Footer() {
       <div className={styles.footer}>
           <div className={styles.container}>
                 <div className={styles.footer_block}>
-                    <span>Иван Иванов</span>
+                    <span>Васильев Артем</span>
                     <div className={styles.footer_block_sociallinks}>
 
                             <div className={styles.footer_block_sociallinks_item}></div>
