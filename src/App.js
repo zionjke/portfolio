@@ -9,6 +9,10 @@ import Slogan from "./components/Slogan/Slogan";
 import Contacts from "./components/Contacts/Contacts";
 import Footer from "./components/Footer/Footer";
 
+
+
+
+
 function App() {
   return (
     <div className="App">
@@ -24,5 +28,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
