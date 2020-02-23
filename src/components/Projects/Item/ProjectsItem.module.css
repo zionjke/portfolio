@@ -3,9 +3,9 @@
 .myprojects_item {
   display: flex;
   flex-direction: column;
-  width: 35%;
   border: 1px solid;
   align-items: flex-start;
+  margin-bottom: 25px;
 
 }
 

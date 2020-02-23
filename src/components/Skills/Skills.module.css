@@ -1,18 +1,24 @@
 .skills {
   min-height: 100vh;
   background-color: #34fcaf;
+  display: flex;
+  justify-content: center;
 
 
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   width: 80%;
-  margin: 0 auto;
+
 
 }
 
 .myskills{
-
   display: flex;
   justify-content: center;
 
@@ -21,14 +27,17 @@
 .myskills span {
   background-color: gray;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 60px;
+
 
 }
 
 .myskill_items {
-  border: 1px solid;
+  width: 60%;
   margin-top: 60px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+
 
 }

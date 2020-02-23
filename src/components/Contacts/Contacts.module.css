@@ -1,11 +1,15 @@
 .contacts {
   min-height: 100vh;
   background-color: #a2a86b;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+
 }
 
 .container {
   width: 80%;
-  border: 1px solid;
   margin: 0 auto;
 
 
@@ -27,12 +31,13 @@
 }
 
 .contacts_block_form {
-  border: 1px solid;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-top: 50px;
   width: 25%;
+
 
 }
 .contacts_block_form input,

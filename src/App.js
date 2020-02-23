@@ -8,12 +8,12 @@ import Projects from "./components/Projects/Projects";
 import Slogan from "./components/Slogan/Slogan";
 import Contacts from "./components/Contacts/Contacts";
 import Footer from "./components/Footer/Footer";
-import BrowserRouter from "react-router-dom/BrowserRouter";
+
 
 
 function App() {
     return (
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        
             <div className="App">
                 <div className="portfolio">
                     <Header/>
@@ -25,7 +25,7 @@ function App() {
                     <Footer/>
                 </div>
             </div>
-        </BrowserRouter>
+
     );
 }
 
