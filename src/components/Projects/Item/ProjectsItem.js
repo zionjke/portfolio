@@ -4,7 +4,6 @@ import styles from './ProjectsItem.module.css'
 
 function ProjectsItem() {
   return (
-
                   <div className={styles.myprojects_item}>
                         <div className={styles.myprojects_item_image}>
                             <img src="" alt=""/>
@@ -16,7 +15,6 @@ function ProjectsItem() {
                       </div>
 
                   </div>
-
   );
 }
 

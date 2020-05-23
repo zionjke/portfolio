@@ -13,6 +13,8 @@ function Projects() {
               <div className={styles.myprojects_items}>
                   <ProjectsItem/>
                   <ProjectsItem/>
+                  <ProjectsItem/>
+                  <ProjectsItem/>
               </div>
           </div>
 

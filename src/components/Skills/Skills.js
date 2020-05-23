@@ -14,6 +14,7 @@ function Skills() {
                     <Item/>
                     <Item/>
                     <Item/>
+                    <Item/>
                 </div>
             </div>
         </div>
