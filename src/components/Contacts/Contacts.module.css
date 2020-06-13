@@ -1,22 +1,18 @@
 .contacts {
-  min-height: 100vh;
+  min-height: 30vh;
   background-color: #a2a86b;
   display: flex;
   justify-content: center;
   align-content: center;
-
 
 }
 
 .container {
   width: 80%;
   margin: 0 auto;
-
-
 }
 
 .contacts_block {
-
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -31,14 +27,11 @@
 }
 
 .contacts_block_form {
-
+  width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-top: 50px;
-
-
-
 }
 .contacts_block_form input,
 .contacts_block_form textarea {
@@ -48,7 +41,7 @@
 }
 
 .contacts_block_form textarea {
-  min-height: 100px;
+  min-height: 160px;
 }
 
 .contacts_block button {
@@ -58,5 +51,11 @@
   font-weight: bold;
   margin-top:50px;
   font-size: 25px;
+  margin-bottom: 50px;
+}
 
+@media screen and (max-width: 626px )  {
+  .contacts_block_form {
+    width: 100%;
+  }
 }

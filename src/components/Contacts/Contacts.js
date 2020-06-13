@@ -8,11 +8,11 @@ function Contacts() {
             <div className={styles.container}>
                 <div className={styles.contacts_block}>
                     <span>Контакты</span>
-                        <form className={styles.contacts_block_form}>
+                        <div className={styles.contacts_block_form}>
                             <input type="text"/>
                             <input type="text"/>
                             <textarea ></textarea>
-                        </form>
+                        </div>
 
                     <button>
                         Отправить

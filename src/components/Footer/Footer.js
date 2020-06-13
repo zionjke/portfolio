@@ -9,12 +9,10 @@ function Footer() {
                 <div className={styles.footer_block}>
                     <span>Васильев Артем</span>
                     <div className={styles.footer_block_sociallinks}>
-
                             <div className={styles.footer_block_sociallinks_item}></div>
                             <div className={styles.footer_block_sociallinks_item}></div>
                             <div className={styles.footer_block_sociallinks_item}></div>
                             <div className={styles.footer_block_sociallinks_item}></div>
-
                     </div>
                     <span>2020 Все права защищены</span>
                 </div>

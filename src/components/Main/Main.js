@@ -10,7 +10,6 @@ function Main() {
                     <span>Привет</span>
                     <span>Меня зовут Васильев Артем</span>
                     <span>Я front-end разработчик</span>
-
                 </div>
                 <div className={styles.photo}>
                     <img src="" alt=""/>

@@ -17,8 +17,9 @@
 }
 
 .footer_block_sociallinks {
+  width: 300px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 50px;
 }
 
@@ -28,7 +29,6 @@
   width: 50px;
   height: 50px;
   background-color: gray;
-  margin-left: 10px;
 }
 
 .footer_block span {
@@ -36,4 +36,17 @@
   background-color: gray;
   font-weight: bold;
   font-size: 18px;
+}
+
+@media screen and (max-width: 626px )  {
+  .footer_block_sociallinks {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 340px )  {
+  .footer_block_sociallinks_item {
+    width: 40px;
+    height: 40px;
+  }
 }
