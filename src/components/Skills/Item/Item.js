@@ -2,15 +2,15 @@ import React from 'react';
 import styles from './Item.module.css'
 
 
-function Item() {
+function Item({title,icon,description}) {
   return (
       <div className={styles.myskill_item}>
-          <div className={styles.myskill_item_image}>
-              <img src="" alt=""/>
+          <div className={styles.myskill_item_icon}>
+              <img src={icon} alt=""/>
           </div>
-          <span>REACT</span>
+          <span className={styles.myskill_item_title}>{title}</span>
           <div className={styles.myskill_item_description}>
-              <span>Подробное описание навыка</span>
+              <span>{description}</span>
           </div>
 
       </div>

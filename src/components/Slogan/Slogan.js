@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Slogan.module.css'
+import BlockTitle from "../BlockTitle";
 
 
 function Slogan() {
@@ -7,7 +8,7 @@ function Slogan() {
       <div className={styles.slogan}>
             <div className={styles.container}>
                 <div className={styles.slogan_block}>
-                    <span>Рассматриваю варианты удаленной работы</span>
+                    <BlockTitle title='Рассматриваю варианты удаленной работы'/>
                     <button>Нанять меня</button>
                 </div>
             </div>

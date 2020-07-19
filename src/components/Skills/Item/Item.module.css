@@ -1,33 +1,44 @@
-
-
 .myskill_item {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: #d9fff8;
-  border: 1px solid;
-  min-height: 400px;
-  margin: 50px;
-;
+  margin-bottom: 45px;
 }
 
-.myskill_item span {
+.myskill_item_title {
   font-weight: bold;
 }
 
-.myskill_item_image{
-  width: 100px;
-  height: 100px;
+.myskill_item_icon{
+  width: 80px;
+  height: 80px;
   background-color: gray;
-
+  transform: rotate(45deg);
+  margin-bottom: 30px;
 }
-
-
 
 .myskill_item_description{
   text-align: center;
-  border: 1px solid blue;
-  min-height: 150px;
+  /*border: 1px solid blue;*/
+  /*min-height: 150px;*/
   /*width: 100%;*/
+}
+
+@media screen and (max-width: 1128px) {
+  .myskill_item {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .myskill_item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .myskill_item {
+    width: 100%;
+  }
 }
