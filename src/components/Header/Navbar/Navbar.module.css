@@ -3,5 +3,14 @@
   display: flex;
   justify-content:space-between ;
   flex-wrap: wrap;
-  color: coral;
+}
+
+.link{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.link:hover{
+  color: brown;
+  transition: 0.2s;
 }
