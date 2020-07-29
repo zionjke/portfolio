@@ -6,7 +6,7 @@ import BlockTitle from "../BlockTitle";
 
 function Projects() {
   return (
-      <div className={styles.projects}>
+      <div id='projects' className={styles.projects}>
           <div className={styles.container}>
                   <BlockTitle title='Мои проекты'/>
               <div className={styles.myprojects_items}>

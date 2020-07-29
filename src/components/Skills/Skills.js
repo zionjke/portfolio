@@ -17,7 +17,7 @@ function Skills() {
     ];
 
     return (
-        <div className={styles.skills}>
+        <div id='skills' className={styles.skills}>
             <div className={styles.container}>
                 <BlockTitle title='Skills'/>
                 <div className={styles.myskill_items}>

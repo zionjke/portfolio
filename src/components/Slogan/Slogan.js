@@ -8,8 +8,7 @@ function Slogan() {
       <div className={styles.slogan}>
             <div className={styles.container}>
                 <div className={styles.slogan_block}>
-                    <BlockTitle title='Рассматриваю варианты удаленной работы'/>
-                    <button>Нанять меня</button>
+                    <BlockTitle title='available for freelance'/>
                 </div>
             </div>
       </div>

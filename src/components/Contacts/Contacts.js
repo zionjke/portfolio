@@ -4,25 +4,25 @@ import BlockTitle from "../BlockTitle";
 
 
 function Contacts() {
-  return (
-      <div className={styles.contacts}>
+    return (
+        <div id='contacts' className={styles.contacts}>
             <div className={styles.container}>
                 <div className={styles.contacts_block}>
-                    <BlockTitle title='Контакты'/>
-                        <div className={styles.contacts_block_form}>
-                            <input type="text"/>
-                            <input type="text"/>
-                            <textarea ></textarea>
-                        </div>
+                    <BlockTitle title='contact with me'/>
+                    <div className={styles.contacts_block_form}>
+                        <input type="text"/>
+                        <input type="text"/>
+                        <textarea></textarea>
+                    </div>
 
-                    <button>
-                        Отправить
+                    <button className='button'>
+                        SEND MESSAGE
                     </button>
 
                 </div>
             </div>
-      </div>
-  );
+        </div>
+    );
 }
 
 export default Contacts;

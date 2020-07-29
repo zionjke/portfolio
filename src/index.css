@@ -17,3 +17,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.button {
+
+  display: flex;
+  position: relative;
+  font-size: 16px;
+  margin: 20px;
+  justify-content: center;
+  border: none;
+  align-items: center;
+  background-color: #1f1f20;
+  color: white;
+  z-index: 0;
+
+}
+
+.button:before {
+  content: '';
+  position: absolute;
+  width: 150px;
+  height: 23px;
+  border-bottom: 10px solid brown;
+  z-index: -1;
+}
+
+.button:hover:before {
+  width: 250px;
+  height: 0px;
+  border-bottom: 35px solid brown;
+  transition: 0.2s;
+}
+.button:focus {
+  outline: none;
+}

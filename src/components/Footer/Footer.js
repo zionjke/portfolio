@@ -7,7 +7,7 @@ import {faFacebook, faGithub, faLinkedin} from "@fortawesome/free-brands-svg-ico
 
 function Footer() {
   return (
-      <div className={styles.footer}>
+      <div id='socials' className={styles.footer}>
           <div className={styles.container}>
                 <div className={styles.social_block}>
                     <BlockTitle title='Vasyliev Artem'/>
