@@ -133,7 +133,7 @@ function App() {
                 "background_size": "cover"
             }
         }
-    }
+    };
 
     return (
             <div className="App">
