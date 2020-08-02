@@ -3,7 +3,7 @@ import {emailValidator, required} from "../../common/validator/validator";
 import React from 'react';
 import styles from './Contacts.module.css';
 import {Field, reduxForm, reset} from "redux-form";
-import * as axios from "axios";
+import axios from "axios";
 import {connect} from "react-redux";
 import BlockTitle from "../BlockTitle";
 import {particleOpt} from "../../App";
@@ -30,7 +30,7 @@ const ContactsReduxForm = reduxForm({
 const Contacts = (props) => {
 
     const sendForm = (formData) => {
-        axios.post('https://smtp-nodeja-server.herokuapp.com/send', formData)
+        axios.post('https://smtp-gmail.herokuapp.com/sendMessage', formData).then(() => alert('Your message hase been sent'))
         props.clearForm()
     }
     return (

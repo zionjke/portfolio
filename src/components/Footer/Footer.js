@@ -13,13 +13,13 @@ function Footer() {
                     <BlockTitle title='Vasyliev Artem'/>
                     <div className={styles.icons}>
                             <div className={styles.icon}>
-                                <a className={styles.link} href="https://www.facebook.com/profile.php?id=100001800740886"><FontAwesomeIcon icon={faFacebook}/></a>
+                                <a className={styles.link} href="https://www.facebook.com/profile.php?id=100001800740886" target="_blank"><FontAwesomeIcon icon={faFacebook}/></a>
                             </div>
                             <div className={styles.icon}>
-                                <a className={styles.link} href="https://www.linkedin.com/in/artem-vasiliev-3498061b2/"><FontAwesomeIcon icon={faLinkedin}/></a>
+                                <a className={styles.link} href="https://www.linkedin.com/in/artem-vasiliev-3498061b2/" target="_blank"><FontAwesomeIcon icon={faLinkedin}/></a>
                             </div>
                             <div className={styles.icon}>
-                                <a className={styles.link} href="https://github.com/zionjke"><FontAwesomeIcon icon={faGithub}/></a>
+                                <a className={styles.link} href="https://github.com/zionjke" target="_blank"><FontAwesomeIcon icon={faGithub}/></a>
                             </div>
                     </div>
                 </div>
