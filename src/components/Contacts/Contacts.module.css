@@ -1,56 +1,123 @@
 .contacts {
-  min-height: 30vh;
-  background-color: #1f1f20;
   display: flex;
   justify-content: center;
-  align-content: center;
-
+  align-items: center;
+  width: 100%;
+  min-height: 70vh;
+  flex-wrap: wrap;
+  background-color: #1f1f20;
+  position: relative;
 }
 
 .container {
   width: 80%;
-  margin: 0 auto;
-}
-
-.contacts_block {
-  margin-top: 50px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-}
-
-.contacts_block span {
-  background-color: gray;
-  font-weight: bold;
-  font-size: 30px;
-}
-
-.contacts_block_form {
-  width: 500px;
-  display: flex;
   flex-direction: column;
-  justify-content: space-between;
+
+}
+
+.contactsForm {
+  display: flex;
+  margin: 50px auto;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.inputForm {
+  /*margin: 7px;*/
+  height: 40px;
+  background-color: #28282a;
+  border: #585858 1px solid;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  text-indent: 20px;
+  color: #f2f2f2;
+  outline: none;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2;
+  transition: 0.5s;
+  position: relative;
+  margin-top: 30px;
+
+}
+
+.inputForm:focus {
+  box-shadow: 0 0 20px #19c7a3;
+  transition: 0.5s;
+}
+
+.inputForm:-webkit-autofill {
+  background-color: #28282a !important;
+}
+
+.textareaForm {
+  width: 100%;
+}
+
+.textareaForm {
+  width: 100%;
+  height: 200px;
+  text-indent: 20px;
+  padding-top: 10px;
+  color: #f2f2f2;
+  outline: none;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2;
+  transition: 0.5s;
+  resize: none;
+  background-color: #28282a;
+  /*margin: 7px;*/
+  border: #585858 1px solid;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  margin-top: 30px;
+
+}
+
+.textareaForm:focus {
+  box-shadow: 0 0 20px #19c7a3;
+  transition: 0.5s;
+}
+
+.contactsForm.error input {
+  box-shadow: 0 0 20px red;
+}
+
+.contactsForm.error textarea {
+  box-shadow: 0 0 20px red;
+}
+
+.contactsForm span {
+  position: absolute;
+  display: flex;
+  color: red;
+  font-size: 12px;
+  text-align: center;
+}
+
+.buttonForm {
   margin-top: 50px;
-}
-.contacts_block_form input,
-.contacts_block_form textarea {
-  background-color: gray;
-  margin-top: 5px;
-
+  composes: btn from '../../index.css';
 }
 
-.contacts_block_form textarea {
-  min-height: 160px;
-}
+@media (min-width: 768px) {
+  .contacts {
+    display: flex;
+    justify-content: center;
+  }
 
-.contacts_block button {
-  border:0 ;
-  padding: 10px;
-  font-weight: bold;
-  margin-top:50px;
-  font-size: 25px;
-  margin-bottom: 50px;
+  .container {
+    width: 80%;
+  }
+
+  .form {
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 626px )  {

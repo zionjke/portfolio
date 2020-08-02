@@ -38,7 +38,7 @@
   content: "";
   bottom: 10px;
   position: absolute;
-  width: 301px;
+  width: 255px;
   height: 14px;
   background: brown;
   z-index: -1;
@@ -46,6 +46,7 @@
 
 .greeting h1 {
   font-size: 27px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .photo {
@@ -91,9 +92,10 @@
 
   .greeting  span:nth-child(2) span:before {
     content: "";
-    bottom: 10px;
+    bottom: 7px;
+    left: -110px;
     position: absolute;
-    width: 257px;
+    width: 245px;
     height: 14px;
     background: brown;
     z-index: -1;

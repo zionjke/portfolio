@@ -9,8 +9,10 @@
   color: white;
   text-decoration: none;
   cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
 }
 .link:hover{
+  font-weight: bold;
   color: brown;
   transition: 0.2s;
 }
