@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.61f5eef9.chunk.css",
-    "main.js": "/portfolio/static/js/main.59e3443c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.59e3443c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.1be2c2d2.chunk.css",
+    "main.js": "/portfolio/static/js/main.f56573f9.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f56573f9.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
-    "static/js/2.7a8e22c8.chunk.js": "/portfolio/static/js/2.7a8e22c8.chunk.js",
-    "static/js/2.7a8e22c8.chunk.js.map": "/portfolio/static/js/2.7a8e22c8.chunk.js.map",
+    "static/js/2.abf90dff.chunk.js": "/portfolio/static/js/2.abf90dff.chunk.js",
+    "static/js/2.abf90dff.chunk.js.map": "/portfolio/static/js/2.abf90dff.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.e1d77e0ef7aaaaf2380dbbaec26841ea.js": "/portfolio/precache-manifest.e1d77e0ef7aaaaf2380dbbaec26841ea.js",
+    "precache-manifest.bad21c6bcc5c918914c6b8ab5fa5e355.js": "/portfolio/precache-manifest.bad21c6bcc5c918914c6b8ab5fa5e355.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.61f5eef9.chunk.css.map": "/portfolio/static/css/main.61f5eef9.chunk.css.map",
-    "static/js/2.7a8e22c8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7a8e22c8.chunk.js.LICENSE.txt",
+    "static/css/main.1be2c2d2.chunk.css.map": "/portfolio/static/css/main.1be2c2d2.chunk.css.map",
+    "static/js/2.abf90dff.chunk.js.LICENSE.txt": "/portfolio/static/js/2.abf90dff.chunk.js.LICENSE.txt",
     "static/media/books.png": "/portfolio/static/media/books.5369fd4c.png",
     "static/media/counter.png": "/portfolio/static/media/counter.ad641c92.png",
     "static/media/panels.png": "/portfolio/static/media/panels.3912f697.png",
+    "static/media/photo.jpg": "/portfolio/static/media/photo.638ed4be.jpg",
     "static/media/pizzas.png": "/portfolio/static/media/pizzas.4cd3347d.png",
     "static/media/todo.png": "/portfolio/static/media/todo.5a59e28c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.44087e9b.js",
-    "static/js/2.7a8e22c8.chunk.js",
-    "static/css/main.61f5eef9.chunk.css",
-    "static/js/main.59e3443c.chunk.js"
+    "static/js/2.abf90dff.chunk.js",
+    "static/css/main.1be2c2d2.chunk.css",
+    "static/js/main.f56573f9.chunk.js"
   ]
 }
